@@ -1,9 +1,10 @@
 ---
-title: "第一篇文章"
-date: "2025-07-30"
-description: "这是我写的第一篇文章"
-tags:
-  - 测试
-published: true
----
-这里是文章正文内容...
+title: My First Blog Post
+published: 2023-09-09
+description: This is the first post of my new Astro blog.
+image: ./cover.jpg
+tags: [Foo, Bar]
+category: Front-end
+draft: false
+lang: jp      # Set only if the post's language differs from the site's language in `config.ts`
+---、
