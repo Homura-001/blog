@@ -1,4 +1,4 @@
-# 🍥Fuwari  
+# 🍥Fuwari
 
 Một mẫu blog tĩnh được xây bằng [Astro](https://astro.build).
 
@@ -21,17 +21,17 @@ Một mẫu blog tĩnh được xây bằng [Astro](https://astro.build).
 ## 🚀 Bắt đầu
 
 1. Tạo kho lưu trữ blog của bạn:
-    - [Tạo một kho lưu trữ mới](https://github.com/saicaca/fuwari/generate) từ mẫu này hoặc fork kho lưu trữ này.
-    - Hoặc chạy một trong các lệnh sau:
-       ```sh
-       npm create fuwari@latest
-       yarn create fuwari
-       pnpm create fuwari@latest
-       bun create fuwari@latest
-       deno run -A npm:create-fuwari@latest
-       ```
+   - [Tạo một kho lưu trữ mới](https://github.com/saicaca/fuwari/generate) từ mẫu này hoặc fork kho lưu trữ này.
+   - Hoặc chạy một trong các lệnh sau:
+     ```sh
+     npm create fuwari@latest
+     yarn create fuwari
+     pnpm create fuwari@latest
+     bun create fuwari@latest
+     deno run -A npm:create-fuwari@latest
+     ```
 2. Để chỉnh sửa blog của bạn trên máy cục bộ, hãy clone kho lưu trữ của bạn, chạy lệnh `pnpm install` để cài đặt các phụ thuộc..
-    - Cài đặt [pnpm](https://pnpm.io) `npm install -g pnpm` nếu chưa có.
+   - Cài đặt [pnpm](https://pnpm.io) `npm install -g pnpm` nếu chưa có.
 3. Chỉnh sửa tệp cấu hình `src/config.ts` để tùy chỉnh blog của bạn.
 4. Chạy `pnpm new-post <filename>` để tạo một bài viết mới và chỉnh sửa nó trong `src/content/posts/`.
 5. Triển khai blog của bạn lên Vercel, Netlify, GitHub Pages, etc. theo [chỉ dẫn](https://docs.astro.build/en/guides/deploy/). Bạn cần chỉnh sửa cấu hình trang web trong `astro.config.mjs` trước khi triển khai.
@@ -47,7 +47,7 @@ image: ./cover.jpg
 tags: [Foo, Bar]
 category: Front-end
 draft: false
-lang: jp      # Chỉ đặt nếu ngôn ngữ của bài viết khác với ngôn ngữ của trang web trong `config.ts`
+lang: jp # Chỉ đặt nếu ngôn ngữ của bài viết khác với ngôn ngữ của trang web trong `config.ts`
 ---
 ```
 
@@ -63,17 +63,17 @@ Ngoài việc Astro đã có hỗ trợ mặc định cho [Markdown vị Github]
 
 Tất cả các lệnh được chạy từ thư mục gốc của dự án, từ một bảng điều khiển:
 
-| Lệnh                    | Mục đích                                              |
-|:---------------------------|:----------------------------------------------------|
-| `pnpm install`             | Cài đặt các phụ thuộc                               |
-| `pnpm dev`                 | Khởi động máy chủ cục bộ tại `localhost:4321`         |
-| `pnpm build`               | Xây dựng trang web của bạn vào `./dist/`             |
-| `pnpm preview`             | Xem trước bản web cục bộ của bạn, trước khi triển khai        |
-| `pnpm check`               | Chạy kiểm tra lỗi trong mã của bạn                 |
-| `pnpm format`              | Định dạng mã của bạn bằng Biome                       |
-| `pnpm new-post <filename>` | Tạo một bài viết mới                               |
-| `pnpm astro ...`           | Chạy các lệnh CLI như `astro add`, `astro check`    |
-| `pnpm astro --help`        | Nhận trợ giúp sử dụng Astro CLI                       |
+| Lệnh                       | Mục đích                                               |
+| :------------------------- | :----------------------------------------------------- |
+| `pnpm install`             | Cài đặt các phụ thuộc                                  |
+| `pnpm dev`                 | Khởi động máy chủ cục bộ tại `localhost:4321`          |
+| `pnpm build`               | Xây dựng trang web của bạn vào `./dist/`               |
+| `pnpm preview`             | Xem trước bản web cục bộ của bạn, trước khi triển khai |
+| `pnpm check`               | Chạy kiểm tra lỗi trong mã của bạn                     |
+| `pnpm format`              | Định dạng mã của bạn bằng Biome                        |
+| `pnpm new-post <filename>` | Tạo một bài viết mới                                   |
+| `pnpm astro ...`           | Chạy các lệnh CLI như `astro add`, `astro check`       |
+| `pnpm astro --help`        | Nhận trợ giúp sử dụng Astro CLI                        |
 
 ## ✏️ Đóng góp
 
