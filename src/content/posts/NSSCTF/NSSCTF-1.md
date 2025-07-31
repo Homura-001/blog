@@ -1,3 +1,12 @@
+---
+title: test
+published: 2025-07-20
+description: "My first blog."
+image: "./cover.jpg"
+tags: ["xixi"]
+category: xixi
+draft: false
+---
 # [SWPUCTF 2021 新生赛]gift_F12
 
 ![](D:\Homura-001\blog\src\assets\images\2025-07-31-22-22-30-image.png)
